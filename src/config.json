@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "tokenUrl": "",
+    "webSocketUrl": "wss://95567.cke-cs.com/ws",
+    "channelId": "abcdefghijkl"
+  },
+  "data": {
+    "english": {
+      "first": "<p>As you may be aware, it's become more common for Americans to invest their money into mutual funds rather than in interest-bearing bank accounts, but what you may not know is that mutual funds are an example of what those in the financial industry call \"nondeposit investment products.\"</p>",
+      "second": "<p>Depository institutions can offer nondeposit investment products directly or, more commonly, through arrangements with third parties, like an affiliated or unaffiliated registered securities broker dealer.</p>",
+      "third": "<p>Nondeposit investment products carry certain risks that some consumers may not be aware of when investing in these products.</p>",
+      "fourth": "<p>That's why there are some rules to make sure banks properly educate their customers.</p>"
+    },
+    "spanish": {
+      "first": "<p>Como ya sabra, cada vez mas estadounidenses invierten en fondos mutuos en vez de cuentas bancarias con intereses, pero lo que quizas no sepa es que este tipo de fondos son un ejemplo de algo que el sector financiero denomina \"productos de investion sin deposito\" (NDIP)</p>",
+      "second": "<p>Las entidades depositarias pueden ofrecer estos productos directamente o, a menudo, mediante acuerdos con terceros, como un agente de bolsa de valores registrado afiliado o no afiliado.</p>",
+      "third": "<p>Los productos de inversion sin deposito conllevan ciertos riesgos que los clientes podrian desconocer.</p>",
+      "fourth": "<p>Por eso hay normas para garantizar que los bancos informen bien a sus clientes.</p>"
+    }
+  }
+}

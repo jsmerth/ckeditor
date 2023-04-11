@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'fonts';
+
+body {
+  font-family: sans-serif;
+  background-color: #E4E3E5;
+  background-size: contain;
+}
+
+.ctr {
+  &.ctr-header {
+    background-color: #fff;
+    min-height: 77px;
+
+    H2 {
+      font-family: 'opensans-bold';
+      color: #3F3E4D;
+    }
+  }
+
+  &.ctr-video {
+    background-color: #3F3E4D;
+    min-height: 300px;
+  }
+
+  &.ctr-presence {
+    background-color: #F8F7FA;
+    border-bottom: 1px solid #E8E6ED;
+    padding: 5px;
+
+    .ck-presence-list {
+      display: none;
+
+      &:first-child {
+        display: flex;
+      }
+    }
+  }
+
+  &.ctr-toolbar {
+    background-color: #fff;
+    border-bottom: 1px solid #E8E6ED;
+    min-height: 43px;
+
+    LABEL {
+      color: #A8A7B4;
+      font-family: 'opensans-semibold';
+      font-size: 11px;
+    }
+
+    SPAN {
+      background-color: #F8F7FA;
+      display: inline-block;
+      border-radius: 5px;
+      margin: 3px 10px;
+      padding: 5px 10px;
+      color: #403F49;
+      font-family: 'opensans-semibold';
+      font-size: 12px;
+      ;
+    }
+  }
+
+  &.ctr-editor {
+    background-color: #F8F7FA;
+  }
+}
+
+.col-editor {
+  color: #9191A1;
+  font-family: 'opensans-regular';
+  font-size: 14px;
+  line-height: 30px;
+
+  &:first-child {
+    border-right: 2px solid #DADADA;
+  }
+
+  .inner {
+    padding: 2em 2em;
+    background-color: #fff;
+  }
+
+  .item-editor {
+    P {
+      margin-top: 0px !important;
+      margin-bottom: 5px !important;
+    }
+
+    .timestamp {
+      padding-left: 1em;
+      color: rgba(207, 207, 214, 0.9);
+      font-size: 11px;
+      letter-spacing: 0.5px;
+      font-family: 'opensans-semibold';
+    }
+  }
+}
+
+.revision-viewer-container {
+  border-left: 1px solid #DADADA;
+  max-width: 400px;
+  font-family: 'opensans-regular';
+  font-size: 14px;
+  color: #9191A1;
+
+  .ck-revision-history-sidebar__revision-wrapper {
+    margin-top: 5px !important;
+
+    .ck-input-text {
+      font-size: 13px !important;
+      font-family: 'opensans-semibold';
+    }
+  }
+}
